@@ -12,11 +12,12 @@ export default function OBMLogo({
  viewBox='0 0 371.000000 200.000000'
  preserveAspectRatio='xMidYMid meet'
 className={className}
+
 >
  <g
   transform='translate(0.000000,200.000000) scale(0.100000,-0.100000)'
   fill='currentColor'
-  stroke='none'
+  stroke='white'
  >
   <path
    d='M910 1939 c-210 -23 -394 -107 -557 -253 -193 -174 -320 -492 -299
