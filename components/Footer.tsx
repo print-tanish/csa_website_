@@ -10,7 +10,6 @@ export default function Footer(): JSX.Element {
             Made with ❤️ by the Tech team 2k24
           </span>
         </div>
-      </a>
       <div className="text-zinc-700 dark:text-zinc-300">
         &copy;&nbsp;&nbsp;{new Date().getFullYear()} CSA@BPHC
       </div>
