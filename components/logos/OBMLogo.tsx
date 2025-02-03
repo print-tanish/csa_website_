@@ -7,8 +7,8 @@ export default function OBMLogo({
     <svg
  version='1.0'
  xmlns='http://www.w3.org/2000/svg'
- width='37.100000pt'
- height='18.000000pt'
+ width='512'
+ height='512'
  viewBox='0 0 371.000000 200.000000'
  preserveAspectRatio='xMidYMid meet'
 className={className}
