@@ -7,8 +7,6 @@ export default function CosmicLogo(): JSX.Element {
  height='26'
  viewBox='0 0 500 500'
  preserveAspectRatio='xMidYMid meet'
-className={className}
-
 >
  <g
   transform='translate(0.000000,200.000000) scale(0.100000,-0.100000)'
