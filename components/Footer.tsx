@@ -12,7 +12,7 @@ export default function Footer(): JSX.Element {
         <div className="flex items-center space-x-2">
           <CosmicLogo />
           <span className="text-zinc-700 dark:text-zinc-300">
-            Made with ❤️ by the Tech team
+            Made with ❤️ by the Tech team 2k24
           </span>
         </div>
       </a>
