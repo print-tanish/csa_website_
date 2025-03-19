@@ -25,8 +25,13 @@ export default function Header({ name }: { name: GlobalData }): JSX.Element {
               </a>
             </li>
             <li>
-              <a href="/team" className="text-white hover:underline">
+              <a href="/PORs" className="text-white hover:underline">
                 Team
+              </a>
+            </li>
+            <li>
+              <a href="/POTD" className="text-white hover:underline">
+                POTD
               </a>
             </li>
             <li>
@@ -35,8 +40,8 @@ export default function Header({ name }: { name: GlobalData }): JSX.Element {
               </a>
             </li>
             <li>
-              <a href="/contact" className="text-white hover:underline">
-                Contact Us
+              <a href="/resources" className="text-white hover:underline">
+                Resources
               </a>
             </li>
           </ul>
