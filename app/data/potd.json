@@ -1,0 +1,7 @@
+{
+    "Question":"John wants to buy a pizza which costs $k, He only possesses n coins and the cashier will accept only two. Find the number of ways in which he can pay for his pizza.",
+    "Input Format":"First line of input will be t the number of test cases, first line of each test case has 2 integers, integers n and k, next line contains n integers, the value of each coin.",
+    "Output Format":"Output a single integer: the number of ways John can pay for his pizza.",
+    "Example": "Input:\n2\n5 10\n1 2 3 7 8\n4 6\n1 3 5 7\n\nOutput:\n2\n1",
+    "Explanation": "TC1: 3,7 2,8 ; TC2: 1,5"
+}
