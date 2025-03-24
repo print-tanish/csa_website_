@@ -46,9 +46,9 @@ const MapComponent = () => {
         worldCopyJump={false}
       >
         <TileLayer
-          attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
-          url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-        />
+  attribution='&copy; <a href="https://carto.com/">CARTO</a>'
+  url="https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png"
+/>
         {alumniData.map((alumnus) => (
           <Marker
             key={alumnus.id}
@@ -56,8 +56,8 @@ const MapComponent = () => {
             icon={
               new Icon({
                 iconUrl: '/images/marker.png',
-                iconSize: [30, 41],
-                iconAnchor: [12, 41],
+                iconSize: [20, 20],
+                iconAnchor: [10, 0],
               })
             }
           >
