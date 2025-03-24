@@ -17,7 +17,7 @@ export default function ResourcesPage() {
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
         {resources.map((resource, index) => (
           <a key={index} href={resource.link} target="_blank" rel="noopener noreferrer" className="no-underline">
-            <div className="p-4 text-center bg-gray-800 text-white rounded-2xl shadow-lg hover:shadow-xl transition-shadow cursor-pointer w-40 h-40 flex flex-col justify-center items-center">
+            <div className="p-4 text-center bg-gray-800 text-white rounded-2xl shadow-lg hover:shadow-xl transition-shadow cursor-pointer w-full aspect-square flex flex-col justify-center items-center">
               <h2 className="text-xl font-semibold mb-2">{resource.title}</h2>
               <p className="text-sm text-gray-400">{resource.description}</p>
             </div>
