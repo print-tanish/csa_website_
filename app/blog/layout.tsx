@@ -24,11 +24,12 @@ export default async function Layout({
 }: {
   children: React.ReactNode;
 }) {
-  //const siteData = await getGlobalData();
+  const siteData = await getGlobalData();
 
   return (
     <html lang="en" className={`${sans.variable} font-sans`}>
       <body className="bg-white dark:bg-zinc-950">
+         <Header name={siteData} />
         {children}
       </body>
     </html>
