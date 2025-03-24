@@ -47,6 +47,8 @@ export default function Header({ name }: { name: GlobalData }): JSX.Element {
           </ul>
         </nav>
       </div>
+      
+      
     </header>
   );
 }
