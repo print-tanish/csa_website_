@@ -11,7 +11,7 @@ export default function ResourcesPage() {
   return (
     <div className="p-6">
       {/* Heading */}
-      <h1 className="text-3xl font-bold mb-6 mt-4">Resources</h1>
+      <h1 className="text-3xl font-bold mb-6 mt-4 text-white">Resources</h1>
       
       {/* Resource Cards */}
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
