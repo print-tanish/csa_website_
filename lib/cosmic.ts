@@ -1,5 +1,7 @@
 import { createBucketClient } from '@cosmicjs/sdk';
 import { Post, GlobalData, Author } from './types';
+const slug = process.env.NEXT_PUBLIC_COSMIC_BUCKET_SLUG;
+
 
 const cosmic = createBucketClient({
   // @ts-ignore
